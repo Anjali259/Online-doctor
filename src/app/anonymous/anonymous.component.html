@@ -1,0 +1,25 @@
+<div class="ask-style"> 
+<form>
+<div class="ask-doctor-textarea">
+    <div class="row">
+        <div class="col-md-7">
+        <div class="form-group">
+            <input [(ngModel)]="question" type="text" class="form-control" placeholder="Type your questions here..">     
+        </div>
+        
+        <div class="form-group" style="text-align:center;">
+                    <button class="btn-danger" (click) = "onSelect(anonymous)"> Ask Anonymous </button>
+        </div>
+        </div>
+
+        <div class="col-md-4">
+         <div class="form-group">
+               
+                        <button class="login-button-home"> Login (By Doctor/ By Patient) </button>
+              
+                    </div>
+        </div>
+</div>
+</div>
+</form>
+</div>
